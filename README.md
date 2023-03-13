@@ -1,6 +1,6 @@
 # Few-samples-many-attributes-January-2023
 ## Overview
-The goal of this competition is to find informative subsets of genes that allow to efficiently solve classification problems defined for a number of microarray data sets.
+The goal is to find informative subsets of genes that allow to efficiently solve classification problems defined for a number of microarray data sets.
 
 ## Task description
 The provided data consist of ten microarray sets with a various number of instances and attributes. Microarray data is a typical example of a problem called "few-samples-many-attributes".
