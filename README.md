@@ -17,3 +17,5 @@ The visualization function that uses PCA shows not only scatter plot of data but
 
 ## First plot
 ### Data visualization
+[Data1.pdf](https://github.com/MateuszZacharecki/Few-samples-many-attributes-January-2023/files/11015669/Data1.pdf)
+
