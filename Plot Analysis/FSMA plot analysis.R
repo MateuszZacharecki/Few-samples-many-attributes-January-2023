@@ -40,10 +40,10 @@ wykres <-function(i)
   fig1 <- ggplot(data.table(pca$x),aes(x=PC1,y=PC2,
                                        colour = Lista_DataSet[[i]][1:nrow(Lista_DataSet[[i]]), target]))+
     geom_point(aes(shape =Lista_DataSet[[i]][1:nrow(Lista_DataSet[[i]]), target]), size = 1)+
-    labs(x = "PC1", y = "PC2", colour = "target", shape = "target", title = "Wizualizacja zbioru")
+    labs(x = "PC1", y = "PC2", colour = "target", shape = "target", title = "Data visualization")
   bar_plot <- suppressWarnings(ggplot(data=data.table(id = 1:6, std = pca$sdev), aes(x=id, y=std))+
                                  geom_bar(stat="identity", position=position_dodge())+
-                                 labs(title = "Porównanie odchyleń standardowych"))
+                                 labs(title = "Comparison of standard deviation"))
   print(fig1)
   print(bar_plot)
 }
